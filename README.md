@@ -22,7 +22,7 @@ Proyek ini menggunakan model YOLOv11 sebagai algoritma deteksi objek utama, yang
 - Ultralytics 8.3.39
 
 ### Hyper-parameter Tuning
-Hyper-parameter tuning dilakukan dengan menggunakan fungsi model.tune yang disediakan pada library ultralytics untuk mencari learning rate yang terbaik. Tuning dilakukan sebanyak 25 iterasi dengan masing-masing iterasi dijalankan selama 100 epoch.
+Hyper-parameter tuning dilakukan dengan menggunakan fungsi model.tune yang disediakan pada library ultralytics untuk mencari learning rate yang terbaik. Tuning dilakukan sebanyak 20 iterasi dengan masing-masing iterasi dijalankan selama 100 epoch.
 
 ### Metrik Evaluasi
 ![image](https://github.com/user-attachments/assets/c4f633d2-7f8b-4960-886f-1ccd04d4b9af)
